@@ -1,0 +1,99 @@
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    height: 5rem;
+    border-bottom: #222222;
+    background-color: white;
+    
+}
+
+.fa-compass{
+    color:#fe424d;
+    font-size: 2rem;
+   
+}
+.nav-link{
+    color: #222222 !important;
+}
+
+
+/* Footer  */
+
+footer{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+ 
+   
+}
+.f-info-a{
+    width: 100%;
+}
+.f-info-icons{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icons{
+    margin-right: 2rem;
+}
+.f-info-t {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust spacing between links */
+    margin-right: 10%;
+    
+}
+.f-info-t a{
+    
+    color: #222222;
+    text-decoration: none;
+}
+
+/* Listings  */
+
+ .listing-card{
+   border : none !important;
+   margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+
+}
+.card-body{
+    padding: 0  !important;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+.card-img-overlay{
+    opacity:0;
+}
+.card-img-overlay:hover{
+    opacity:0.2;
+    background-color: white;
+}
+
+
+
+/* Show page */
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
